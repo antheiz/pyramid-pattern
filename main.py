@@ -10,9 +10,7 @@ for num in range(number):
 
     for i in range(num):
 
-        print(num, end=' ') # print number
-
-    # line after each row to display pattern correctly
+        print(num, end=' ') 
 
     print('\n')
 

@@ -1,6 +1,6 @@
 # Pyramid Pattern - Python
 
-### Cara menggunakan Aplikasi
+### Cara menjalankan Program
 * git clone https://github.com/antheiz/pyramid-pattern.git
 * cd pyramid-pattern
 * python main.py
