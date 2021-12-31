@@ -30,11 +30,35 @@ for i in range(number):
         print(j+1, end=" ")
     print("\n")
 
-
 print("----------------------------")
 
 
+# pyramid with number - pola 3
 
+print("\nPOLA 3")
+
+number = 9
+
+for i in range(num, -1, -1):
+    for j in range(number, i, -1):
+        print(j, end=" ")
+    print("\n")
+
+print("----------------------------")
+
+# pyramid with number - pola 4
+
+print("\nPOLA 4\n")
+
+number = 9
+
+for num in range(number, 0, -1):
+    # j = number
+    for i in range(num, number+1):
+        print(num, end=" ")
+    print("\n")
+
+print("----------------------------")
 
 
 # pyramid with number - pola 5
@@ -54,9 +78,6 @@ for i in range(number, 0, -1):
 print("----------------------------")
 
 
-
-
-
 # pyramid with number - pola 6
 
 print("\nPOLA 6\n")
@@ -73,6 +94,20 @@ for i in range(number, 0, -1):
 print("----------------------------")
 
 
+# pyramid with number - pola 7
+
+print("\nPOLA 7\n")
+
+number = 9
+
+for i in range(0, number):
+
+    for j in range(number, i, -1):
+        print(j, end=' ')
+        
+    print('\n')
+
+print("----------------------------")
 
 
 
